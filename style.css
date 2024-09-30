@@ -1,0 +1,66 @@
+body{
+     font-size: 24px;
+     background-color: #0093E9;
+     margin-left: 200px;
+     margin-right: 200px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding: 20px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.input{
+height: 30px;
+width: 300px;
+border-radius: 5px;
+background-color: ghostwhite ;
+border: 2px solid black;
+color: black;
+font-size: 17px;
+padding: 10px;
+}
+.input:hover , .input1:hover , .input2:hover{
+    border-color:aquamarine;
+}
+#name , #name2{
+    display: inline-block;
+}
+.input1{
+    height: 30px;
+    width: 460px;
+    border-radius: 5px;
+    background-color: ghostwhite ;
+    border: 2px solid black;
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+
+}
+.input2{
+    height: 100px;
+    width: 950px;
+border-radius: 5px;
+background-color: ghostwhite;
+border: 2px solid black;
+color: black;
+font-size: 20px;
+padding-left: 15px;
+padding-bottom:100px ;
+}
+.input3{
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+    width: 120px;
+    padding: 8px;
+    float: right;
+    font-size: 25px;
+    color: white;
+    margin-right:100px ;
+}
+.input3:hover{
+    background-color: rgb(152, 236, 207);
+}
